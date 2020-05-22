@@ -1,0 +1,8 @@
+com\Framework\TestCases\TC_SampleTest_001.class
+com\Framework\Utilities\ExcelUtils.class
+com\Framework\PageObjects\HomePage.class
+com\Framework\Utilities\HtmlReporting.class
+Framework_Structure\Framework_Structure\AppTest.class
+com\Framework\TestCases\TC_SampleTest_002.class
+com\Framework\TestCases\BaseClass.class
+com\Framework\Utilities\ReadConfig.class

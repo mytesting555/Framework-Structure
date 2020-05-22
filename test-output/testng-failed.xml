@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [framework_Structure]">
+  <listeners>
+    <listener class-name="com.Framework.Utilities.HtmlReporting"/>
+  </listeners>
+  <test thread-count="5" name="Framework practice(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Framework.TestCases.TC_SampleTest_001">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="firstTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Framework.TestCases.TC_SampleTest_001 -->
+    </classes>
+  </test> <!-- Framework practice(failed) -->
+</suite> <!-- Failed suite [framework_Structure] -->

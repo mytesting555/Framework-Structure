@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="framework_Structure">
+
+	<listeners>
+		<listener class-name="com.Framework.Utilities.HtmlReporting"> </listener>
+	</listeners>
+	<test name="Framework practice">
+		<parameter name="browser" value="firefox" />
+			<classes>
+			 	<class name="com.Framework.TestCases.TC_SampleTest_001"></class> 	
+			<!--  	<class name="com.Framework.TestCases.TC_SampleTest_002"></class>	-->
+			</classes>
+			
+	</test>
+
+</suite>

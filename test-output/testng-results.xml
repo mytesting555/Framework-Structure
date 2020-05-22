@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="framework_Structure" duration-ms="34062" started-at="2020-04-30T12:07:43Z" finished-at="2020-04-30T12:08:17Z">
+    <groups>
+    </groups>
+    <test name="Framework practice" duration-ms="34062" started-at="2020-04-30T12:07:43Z" finished-at="2020-04-30T12:08:17Z">
+      <class name="com.Framework.TestCases.TC_SampleTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Framework.TestCases.TC_SampleTest_001@e26948]" name="setup" is-config="true" duration-ms="21116" started-at="2020-04-30T12:07:43Z" finished-at="2020-04-30T12:08:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.Framework.TestCases.TC_SampleTest_001@e26948]" name="firstTest" duration-ms="10545" started-at="2020-04-30T12:08:04Z" finished-at="2020-04-30T12:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Framework.TestCases.TC_SampleTest_001@e26948]" name="closeBrowser" is-config="true" duration-ms="2018" started-at="2020-04-30T12:08:15Z" finished-at="2020-04-30T12:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Framework.TestCases.TC_SampleTest_001 -->
+    </test> <!-- Framework practice -->
+  </suite> <!-- framework_Structure -->
+</testng-results>
